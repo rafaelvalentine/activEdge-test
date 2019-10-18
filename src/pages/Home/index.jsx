@@ -92,14 +92,6 @@ setTimeout(() => {
   this.setState({info:'No Data found'})
 }, 30000);
     this.props.handleGetAllUsers()
-    // .then(res=>{
-    //   this.props.handleGetJobs()
-    // })
-    // this.props.handleGetAllUsers()
-    // .then(res =>{
-    //   this.props.handlePageLoader(false)
-    //   this.setState({info:'Fetching Data......'})
-    // })
   }
 
   

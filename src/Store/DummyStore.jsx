@@ -1,5 +1,6 @@
 const initState = {
-  Users: []
+  Users: [],
+  Albums:[]
 }
 
 export default initState

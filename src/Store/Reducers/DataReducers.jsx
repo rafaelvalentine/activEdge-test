@@ -6,7 +6,11 @@ export default (state = initialState, action) => {
       return { ...state,
         Users: [...action.payload]
       }
-
+    case 'FETCH_ALBUM':
+      return { ...state,
+        Albums: [...action.payload]
+      }
+      
     default:
       return state
   }
